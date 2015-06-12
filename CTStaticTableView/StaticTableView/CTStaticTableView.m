@@ -12,7 +12,6 @@
 
 @property (strong, nonatomic) NSArray *staticCells;
 
-
 @end
 
 @implementation CTStaticTableView
