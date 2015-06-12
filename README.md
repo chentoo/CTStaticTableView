@@ -9,6 +9,7 @@
 ```
 
 然后可以合成你的static table view cell
+需要两个参数：一个是TableViewCell对象，一个是他的高度。
 ``` Objective-C
     CTStaticTableViewCell *fristStaticCell = [CTStaticTableViewCell staticTableViewCellWithCell:[DemoTableViewFristCell fristCell] height:50];
     CTStaticTableViewCell *secendStaticCell = [CTStaticTableViewCell staticTableViewCellWithCell:[DemoTableViewSecendCell secendCell] height:80];
