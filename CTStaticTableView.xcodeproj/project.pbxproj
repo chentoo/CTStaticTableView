@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DACC3AF11B2ACFA90035026F /* CTStaticTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DACC3AEE1B2ACFA90035026F /* CTStaticTableView.m */; };
+		DACC3AF21B2ACFA90035026F /* CTStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACC3AF01B2ACFA90035026F /* CTStaticTableViewCell.m */; };
 		DACE7D7F1B297A86001C64E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE7D7E1B297A86001C64E6 /* main.m */; };
 		DACE7D821B297A86001C64E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE7D811B297A86001C64E6 /* AppDelegate.m */; };
 		DACE7D851B297A86001C64E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE7D841B297A86001C64E6 /* ViewController.m */; };
@@ -20,8 +22,6 @@
 		DACE7DAC1B297B39001C64E6 /* DemoTableViewSecendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACE7DAA1B297B39001C64E6 /* DemoTableViewSecendCell.xib */; };
 		DACE7DB01B297B50001C64E6 /* DemoTableViewThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE7DAE1B297B50001C64E6 /* DemoTableViewThirdCell.m */; };
 		DACE7DB11B297B50001C64E6 /* DemoTableViewThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACE7DAF1B297B50001C64E6 /* DemoTableViewThirdCell.xib */; };
-		DACE7DB51B297C4D001C64E6 /* CTStaticTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE7DB41B297C4D001C64E6 /* CTStaticTableView.m */; };
-		DACE7DB81B297D8B001C64E6 /* CTStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE7DB71B297D8B001C64E6 /* CTStaticTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DACC3AED1B2ACFA90035026F /* CTStaticTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTStaticTableView.h; path = StaticTableView/CTStaticTableView.h; sourceTree = "<group>"; };
+		DACC3AEE1B2ACFA90035026F /* CTStaticTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTStaticTableView.m; path = StaticTableView/CTStaticTableView.m; sourceTree = "<group>"; };
+		DACC3AEF1B2ACFA90035026F /* CTStaticTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTStaticTableViewCell.h; path = StaticTableView/CTStaticTableViewCell.h; sourceTree = "<group>"; };
+		DACC3AF01B2ACFA90035026F /* CTStaticTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTStaticTableViewCell.m; path = StaticTableView/CTStaticTableViewCell.m; sourceTree = "<group>"; };
 		DACE7D791B297A86001C64E6 /* CTStaticTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTStaticTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACE7D7D1B297A86001C64E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DACE7D7E1B297A86001C64E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,10 +61,6 @@
 		DACE7DAD1B297B50001C64E6 /* DemoTableViewThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewThirdCell.h; sourceTree = "<group>"; };
 		DACE7DAE1B297B50001C64E6 /* DemoTableViewThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewThirdCell.m; sourceTree = "<group>"; };
 		DACE7DAF1B297B50001C64E6 /* DemoTableViewThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTableViewThirdCell.xib; sourceTree = "<group>"; };
-		DACE7DB31B297C4D001C64E6 /* CTStaticTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTStaticTableView.h; sourceTree = "<group>"; };
-		DACE7DB41B297C4D001C64E6 /* CTStaticTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTStaticTableView.m; sourceTree = "<group>"; };
-		DACE7DB61B297D8B001C64E6 /* CTStaticTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTStaticTableViewCell.h; sourceTree = "<group>"; };
-		DACE7DB71B297D8B001C64E6 /* CTStaticTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTStaticTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,10 +169,10 @@
 		DACE7DB21B297C16001C64E6 /* CTStaticTableView */ = {
 			isa = PBXGroup;
 			children = (
-				DACE7DB31B297C4D001C64E6 /* CTStaticTableView.h */,
-				DACE7DB41B297C4D001C64E6 /* CTStaticTableView.m */,
-				DACE7DB61B297D8B001C64E6 /* CTStaticTableViewCell.h */,
-				DACE7DB71B297D8B001C64E6 /* CTStaticTableViewCell.m */,
+				DACC3AED1B2ACFA90035026F /* CTStaticTableView.h */,
+				DACC3AEE1B2ACFA90035026F /* CTStaticTableView.m */,
+				DACC3AEF1B2ACFA90035026F /* CTStaticTableViewCell.h */,
+				DACC3AF01B2ACFA90035026F /* CTStaticTableViewCell.m */,
 			);
 			name = CTStaticTableView;
 			sourceTree = "<group>";
@@ -284,8 +284,8 @@
 				DACE7D851B297A86001C64E6 /* ViewController.m in Sources */,
 				DACE7DAB1B297B39001C64E6 /* DemoTableViewSecendCell.m in Sources */,
 				DACE7D821B297A86001C64E6 /* AppDelegate.m in Sources */,
-				DACE7DB81B297D8B001C64E6 /* CTStaticTableViewCell.m in Sources */,
-				DACE7DB51B297C4D001C64E6 /* CTStaticTableView.m in Sources */,
+				DACC3AF21B2ACFA90035026F /* CTStaticTableViewCell.m in Sources */,
+				DACC3AF11B2ACFA90035026F /* CTStaticTableView.m in Sources */,
 				DACE7D7F1B297A86001C64E6 /* main.m in Sources */,
 				DACE7DA61B297B27001C64E6 /* DemoTableViewFristCell.m in Sources */,
 			);
